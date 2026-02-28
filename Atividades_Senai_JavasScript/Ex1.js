@@ -1,0 +1,18 @@
+const promptSync = require("prompt-sync");
+const prompt = promptSync();
+
+
+
+let idade = prompt("Digite sua idade:");
+
+
+idade = Number(idade);
+
+if (idade >= 18) {
+    console.log("Você é maior de idade");
+} else {
+     console.log("\n");
+     console.log("Você é menor de idade");
+}
+
+
